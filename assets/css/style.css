@@ -118,6 +118,10 @@ footer {
   color: #e5e7eb;
 }
 
+.dark header {
+  background: linear-gradient(135deg, #020617, #1e293b);
+}
+
 .dark section {
   background: #0f172a;
   color: #e5e7eb;
@@ -126,6 +130,7 @@ footer {
 .dark footer {
   color: #94a3b8;
 }
+
 
 /* ---------- Desktop Layout ---------- */
 @media (min-width: 900px) {
