@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f4f6f8;
+  color: #333;
+}
+
+header {
+  background: #0f172a;
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.top-links a, .top-links button {
+  margin: 5px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  background: #2563eb;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+section {
+  max-width: 900px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 20px;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+}
+
+/* Dark Mode */
+.dark {
+  background: #020617;
+  color: #e5e7eb;
+}
+
+.dark section {
+  background: #0f172a;
+}
