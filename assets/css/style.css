@@ -35,32 +35,42 @@ header p {
   opacity: 0.9;
 }
 
-/* ---------- Top Buttons ---------- */
+/* Top links layout */
 .top-links {
-  margin-top: 25px;
+  margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
 }
 
-.top-links a,
+/* Button style */
 .top-links button {
-  background: var(--primary);
+  background: #2563eb;
   color: #fff;
   padding: 10px 16px;
   border-radius: 999px;
   border: none;
-  font-size: 14px;
-  text-decoration: none;
   cursor: pointer;
+  font-size: 14px;
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.top-links a:hover,
 .top-links button:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(37, 99, 235, 0.35);
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .top-links {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .top-links button {
+    width: 100%;
+  }
 }
 
 /* ---------- Main Sections ---------- */
